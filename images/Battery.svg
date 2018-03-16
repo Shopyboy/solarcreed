@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="37px" viewBox="0 0 91 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Battery</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop-1440" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-675.000000, -1710.000000)">
+        <g id="Battery" transform="translate(675.000000, 1710.000000)" fill="#00BE78" fill-rule="nonzero">
+            <g id="Layer_1">
+                <path d="M85.3125,28.4615385 L91,28.4615385 L91,8.53846154 L85.3125,8.53846154 L85.3125,0 L0,0 L0,37 L85.3125,37 L85.3125,28.4615385 Z M88.15625,11.3846154 L88.15625,25.6153846 L85.3125,25.6153846 L85.3125,11.3846154 L88.15625,11.3846154 Z M82.46875,34.1538462 L2.84375,34.1538462 L2.84375,2.84615385 L82.46875,2.84615385 L82.46875,34.1538462 Z" id="Shape"></path>
+                <path d="M79.625,5.69230769 L5.6875,5.69230769 L5.6875,31.3076923 L79.625,31.3076923 L79.625,5.69230769 Z M76.78125,28.4615385 L8.53125,28.4615385 L8.53125,8.53846154 L76.78125,8.53846154 L76.78125,28.4615385 Z" id="Shape"></path>
+                <polygon id="Shape" points="39.8125 16.3895769 39.8125 24.9280385 51.7477187 19.8078077 50.6272812 17.1921923 42.65625 20.6104231 42.65625 12.0719615 30.7210312 17.1921923 31.8414687 19.8078077"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

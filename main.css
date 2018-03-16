@@ -1,0 +1,314 @@
+/*----------------
+	General
+------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, 
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header,
+nav, 
+footer, 
+section, 
+article, 
+div {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Circular Std Book;
+  font-size: 12px;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+/*----------------
+	Header
+------------------*/
+
+.logo{
+	width: 200px;
+}
+
+.header{
+	/*position: absolute;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    padding-left: 84px;
+    padding-right: 84px;
+}
+
+.top_nav ul li{
+	display: inline-flex;
+
+}
+
+.nav_link{
+	text-decoration: none;
+	display: flex;
+	font-family: Circular Std Bold;
+  	font-size: 18px;
+  	color: #000;
+  	padding: 0 0 0 30px;
+
+}
+
+.nav_link a:hover{
+	color: #00BE78;
+}
+
+.nav_link:first-child {
+    padding-left: 0;
+}
+
+.nav_section{
+	display: flex;
+}
+
+.header_inner{
+	width: 100%;
+  	margin-left: auto;
+  	margin-right: auto;
+  	display: flex;
+  	align-items: center;
+  	padding-left: 54px;
+    padding-right: 54px;
+    min-height: 90px;
+}
+
+.logo_class{
+	margin-right: auto;
+}
+
+.header__menu img{
+    display: flex;
+    width: 30px;
+    margin-right: 35px;
+}
+
+
+
+/*---------------
+Hero Section
+-----------------*/
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 125px 100px;
+}
+
+.hero{
+	position: relative;
+	justify-content: center;
+	min-height: 100vh;
+	color: #fff;
+	/*text-align: center;*/
+}
+
+.hero .hero-img{
+	background-image: url(images/dan-gold-206211-unsplash.png);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-color: #2196F3;
+	z-index: -1;
+}
+
+.hero h1{
+	font-family: Circular Std Bold;
+	font-size: 160px;
+	color: #FFFFFF;
+	letter-spacing: -5.28px;
+	line-height: 129px;
+	position: absolute;
+	margin-bottom: 40px;
+	margin-top: -84px;
+}
+
+/*---------
+Intro text section
+-----------------*/
+
+.intro-text{
+	background-color: #fff
+}
+
+.intro-text a::after{
+	content: "→";
+}
+
+.intro-text p{
+	color: #4D4C52;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0% 18%;
+}
+
+.intro-text a{
+	padding-top: 10px;
+	font-size: 16px;
+}
+
+.intro-text a:hover{
+	color: #00BE78;
+}
+
+/*----------------
+Email form
+----------------*/
+.email-col{
+	background-color: #00BE78;
+	display: flex;
+	align-items: center;
+}
+
+.email_enter{
+	
+    background-color: #00BE78;
+    padding: 16px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    color: #fff;
+    font-size: 16px;
+}
+
+.email-col .email-sec li{
+	flex-basis: 100%;
+	text-align: center;
+}
+
+.email-col .email-sec p{
+	color: #fff;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+input[type=submit]{
+	border: none;
+    padding: 12px 30px 10px 30px;
+    margin-top: 11%;
+    font-size: 17px;
+    color: #00BE78;
+    cursor: pointer;
+}
+
+::placeholder { 
+    color: #fff;
+    opacity: 1;
+    font-size: 16px;
+}
+
+/*------------
+Features section
+-----------------*/
+.features{
+	background-color: #F0F0F0;
+}
+
+.features .grid li{
+	padding: 0 44px;
+	flex-basis: 33%;
+	text-align: center;
+}
+
+.features .grid li i{
+    font-size: 50px;
+    color: #2196F3;
+    margin-bottom: 25px;
+}
+
+.features .grid li h4{
+	color: #00BE78;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-family: Circular Std Bold;
+}
+
+.features .grid li p{
+    margin: 0;
+    font-size: 16px;
+    color: #4D4C52;
+    line-height: 30px;
+}
+
+ul.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid img{
+	width: 80px;
+	min-height: 80px;
+	margin-bottom: 20px;
+}
+
+/*----------------
+	Footer Section
+*/
+
+footer{
+	background-color: #4D4C52;
+	display: flex;
+	flex-direction: column;
+	/*padding: 70px 155px;*/
+	padding: 70px 155px 150px 155px;
+
+}
+
+ul.footer-grid{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: center;*/
+}
+
+footer .footer-grid li h4{
+	color: #FFFFFF;
+	padding-bottom: 20px;
+	font-size: 14px;
+}
+footer .footer-grid li p{
+	color: #D0D4D5;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.logotype{
+	flex-basis: 100%;
+	padding-bottom: 40px;
+}
+
+.info{
+	flex-basis: 25%;
+}
