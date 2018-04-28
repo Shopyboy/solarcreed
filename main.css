@@ -48,12 +48,12 @@ a:-webkit-any-link {
 }
 
 .btn_class_white{
-	background: #FFFFFF;
-    border: 1px solid #FFFFFF;
+	background: #00BE78;
+    border: 1px solid #00BE78;
     border-radius: 100px;
     font-family: CircularStd-Bold;
     font-size: 16px;
-    color: #00BE78;
+    color: #fff;
     letter-spacing: 2px;
     padding: 15px 30px 15px 30px;
     cursor: pointer;
@@ -62,6 +62,19 @@ a:-webkit-any-link {
 
 .btn_class_green{
 	background: #00BE78;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    font-family: CircularStd-Bold;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+.btn_class_content{
+    background: #00BE78;
     border: 1px solid #FFFFFF;
     border-radius: 100px;
     font-family: CircularStd-Bold;
@@ -212,7 +225,6 @@ Intro text section
 	color: #4D4C52;
     font-size: 20px;
     line-height: 44px;
-    padding: 0% 23%;
 }
 
 .intro-text a{
@@ -236,7 +248,11 @@ Intro text section
 	color: #4D4C52;
     font-size: 30px;
     line-height: 40px;
-    padding: 0% 23% 2% 23%;
+    padding-bottom: 2%;
+}
+
+.intro-sub-text{
+    padding: 0% 23%;
 }
 /*----------------
 Email form
