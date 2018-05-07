@@ -183,6 +183,10 @@
 	    padding: 0% 4% 2% 5%;
 	}
 
+	.intro-sub-text {
+    padding: 0% 4%;
+	}
+
 	.features .grid li {
 	    padding: 0 30px;
 	    flex-basis: 100%;
@@ -204,8 +208,9 @@
 	}
 
 	.product_img img {
-	    width: 80vw;
+	    width: 88vw;
 	    margin-top: 13%;
+	    margin-left: -9%;
 	}
 
 }
