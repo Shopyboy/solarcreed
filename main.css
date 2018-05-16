@@ -83,7 +83,7 @@ a:-webkit-any-link {
     letter-spacing: 2px;
     padding: 15px 30px 15px 30px;
     cursor: pointer;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 p, h1, h2{
@@ -225,6 +225,12 @@ Intro text section
 	color: #4D4C52;
     font-size: 20px;
     line-height: 44px;
+}
+
+.intro-text span{
+    display: flex;
+    color: #4D4C52;
+    font-size: 12px;
 }
 
 .intro-text a{
