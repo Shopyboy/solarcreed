@@ -1,4 +1,4 @@
-@media screen and (max-width: 549px){
+@media screen and (max-width: 568px){
 
 /*------Static Content---*/
 	.header {
@@ -180,11 +180,6 @@
 	background-attachment: unset;
 }
 
-	.intro_img img {
-	    max-width: 80vw;
-	    margin-bottom: 12px;
-	}
-
 	.intro-text p {
 	    font-size: 16px;
 	    line-height: 35px;
@@ -199,44 +194,89 @@
     padding: 0% 4%;
 	}
 
-	.features .grid li {
-	    padding: 0 30px;
+	.about-us .grid li {
 	    flex-basis: 100%;
-	    padding-bottom: 45px;
 	}
 
-	.features .grid li:last-child {
-    	padding-bottom: 0px;
-	}
-
-	.features .grid img {
-	    margin-bottom: 20px;
-	    width: 150px;
-    	min-height: 80px;
-	}
-
-	.features .grid li p {
+	.about-txt p {
 	    font-size: 16px;
+	    padding-bottom: 13px;
+	}
+	.about-txt {
+	    padding: 95px 45px;
 	}
 
-	.product_img img {
-	    width: 88vw;
-	    margin-top: 13%;
-	    margin-left: -9%;
+	.about-img {
+	    height: 83vw;
 	}
 
-	.intro-text span {
-	    padding-left: 4%;
+	.about-img img {
+	    width: 58vw;
+	}
+	.the-team .grid li {
+	    flex-basis: 100%;
+	    padding-bottom: 5%;
 	}
 
-	.btn_class_content {
-	    margin-left: 4%;
+	.profile img {
+	    width: 83vw;
 	}
 
+	.profile {
+	    width: 83vw;
+	}
+
+	.quote .grid li {
+	    flex-basis: 100%;
+	}
+
+	.quote-txt {
+	    padding: 125px 45px;
+	}
+
+	.quote-txt h3 {
+	    font-size: 57px;
+	    line-height: 75px;
+	    padding-bottom: 2%;
+	}
+
+	.hiring-sub-text {
+	    padding: 0% 2%;
+	}
+
+	.hiring-sub-text h3 {
+	    font-size: 50px;
+	    padding-bottom: 5%;
+	}
+
+	.jobs .grid li {
+	    flex-basis: 100%;
+	}
+
+	.openings {
+	    width: 83vw;
+	}
+
+	.quote-img {
+	    height: 80vw;
+	    margin-bottom: -3px;
+	}
+
+	.quote-txt {
+	    padding: 96px 45px;
+	}
+
+	.quote-txt p {
+	    padding-bottom: 3%;
+	}
+
+	.quote-img img {
+	    width: 55vw;
+	}
 }
 
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 569px) {
 	.nav-toggle{
 		display: none;
 	}
@@ -246,7 +286,7 @@
 	}
 }
 
-@media screen and (min-width: 551px) and (max-width: 767px) {
+@media screen and (min-width: 550px) and (max-width: 767px) {
 /*----Static Content----*/
 	.header {
 	    padding-left: 0px;
@@ -297,7 +337,7 @@
 
 	.intro-text p {
 	    padding: 0% 10%;
-	    font-size: 14px;
+	    font-size: 16px;
     	line-height: 32px;
 	}
 
@@ -306,42 +346,84 @@
 	}
 
 	.intro-sub-text {
-	    padding: 0% 10%;
+	    padding: 0% 0%;
 	}
 
-	.intro-text span {
-	    padding-left: 10%;
+	.about-txt {
+	    padding: 95px 50px;
 	}
 
-	.btn_class_content {
-	    margin-left: 10%;
+	.about-us .grid li {
+	   flex-basis: 100%;
 	}
 
-	.intro_img img {
-	    max-width: 70vw;
+	.about-img img {
+	    width: 50vw;
 	}
 
-	.features .grid img {
-	    width: 130px;
+	.about-img {
+	    height: 75vw;
 	}
 
-	.features .grid li p {
-	    font-size: 14px;
-	    line-height: 30px;
+	.the-team .grid li {
+	    flex-basis: 100%;
+	    padding-bottom: 5%;
 	}
 
-	.product_img img {
-	    width: 70vw;
-	    margin-top: 10%;
+	.profile img {
+	    width: 83vw;
 	}
 
-	.features .grid li {
-	    padding: 0px 14px 0px 14px;
-	    flex-basis: 33%;
+	.profile {
+	    width: 83vw;
 	}
 
-	.features .grid li:last-child {
-    	padding-bottom: 0px;
+	.quote .grid li {
+	    flex-basis: 100%;
+	}
+
+	.quote-txt {
+	    padding: 125px 45px;
+	}
+
+	.quote-txt h3 {
+	    font-size: 57px;
+	    line-height: 75px;
+	    padding-bottom: 2%;
+	}
+
+	.hiring-sub-text {
+	    padding: 0% 2%;
+	}
+
+	.hiring-sub-text h3 {
+	    font-size: 50px;
+	    padding-bottom: 5%;
+	}
+
+	.jobs .grid li {
+	    flex-basis: 100%;
+	}
+
+	.openings {
+	    width: 83vw;
+	}
+
+	.quote-img {
+	    height: 80vw;
+	    margin-bottom: -3px;
+	}
+
+	.quote-txt {
+	    padding: 96px 45px;
+	}
+
+	.quote-txt p {
+	    padding-bottom: 3%;
+	}
+
+	.quote-img img {
+	    width: 55vw;
 	}
 
 }
@@ -378,11 +460,9 @@
 	}
 
 	.intro-text p {
+		font-size: 16px;
+    	line-height: 35px;
 	    padding: 0% 10%;
-	}
-
-	.intro_img img {
-	    max-width: 80vw;
 	}
 
 	.intro-text h3 {
@@ -395,26 +475,141 @@
 	    width: 70vw;
 	}
 
-	.features .grid img {
-	    width: 150px;
+	.intro-sub-text {
+	   padding: 0% 5%;
 	}
 
-	.features .grid li p {
+	.about-txt {
+	    padding: 65px 20px;
+	}
+
+	.about-txt p {
 	    font-size: 16px;
-	    line-height: 27px;
+	    line-height: 36px;
 	}
 
-	.product_img img {
-	    width: 70vw;
-	    margin-top: 10%;
+	.about-img img {
+	    width: 39vw;
 	}
 
-	.intro-text span {
-	    padding-left: 10%;
+	.quote-txt {
+	    padding: 65px 20px;
 	}
 
-	.btn_class_content {
-	    margin-left: 10%;
+	.quote-img img {
+		width: 39vw;
 	}
 
+	.hiring-sub-text p {
+	    font-size: 16px;
+	    line-height: 35px;
+	    padding-bottom: 15px;
+	}
+
+	.hiring-sub-text {
+	    padding: 0% 15%;
+	}
+
+	.quote-txt h3 {
+	    font-size: 60px;
+	    line-height: 73px;
+	}
+
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+	.quote-txt {
+	    padding: 125px 130px;
+	}
+
+	.about-txt {
+	    padding: 70px 65px;
+	}
+
+	.about-img img {
+	    width: 32vw;
+	}
+
+	.quote-img img {
+	    width: 38vw;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1299px) {
+	.quote-txt {
+	    padding: 65px 100px;
+	}
+
+	.about-txt {
+	    padding: 65px 60px;
+	}
+
+	.about-img img {
+	    width: 34vw;
+	}
+
+	.quote-img img {
+	    width: 38vw;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+	section {
+    	padding: 70px 10px;
+	}
+
+	.intro-sub-text {
+	   padding: 0% 5%;
+	}
+
+	.about-txt {
+	    padding: 65px 20px;
+	}
+
+	.about-txt p {
+	    font-size: 20px;
+    	line-height: 45px;
+	}
+
+	.about-img img {
+	    width: 39vw;
+	}
+
+	.quote-txt {
+	    padding: 65px 20px;
+	}
+
+	.quote-img img {
+		width: 36vw;
+	}
+
+	.hiring-sub-text p {
+	    font-size: 20px;
+    	line-height: 45px;
+	    padding-bottom: 15px;
+	}
+
+	.hiring-sub-text {
+	    padding: 0% 15%;
+	}
+
+	.quote-txt h3 {
+	    font-size: 60px;
+	    line-height: 73px;
+	}
+
+	footer {
+	    padding: 70px 40px 150px 40px;
+	}
+
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1497px) {
+	.quote-img img {
+	    width: 35vw;
+	}
+
+	.about-img img {
+	    width: 38vw;
+	}
 }
