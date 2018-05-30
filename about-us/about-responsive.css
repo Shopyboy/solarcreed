@@ -150,6 +150,15 @@
 	    padding: 0;
 	}
 
+	.nav ul li:nth-child(1){
+	    color: white;
+	    padding-top: 0px;
+	}
+
+	.nav_link {
+	    padding-bottom: 0px;
+	}
+
 /*-----End----*/
 	.hero {
 	    min-height: 50vh;

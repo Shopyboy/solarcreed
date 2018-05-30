@@ -14,6 +14,7 @@
 	    font-size: 13px;
 	    padding: 10px 20px 10px 21px;
 	    margin-top: 5%;
+	    -webkit-appearance: none;
 	}
 
 	.logotype {
@@ -149,6 +150,8 @@
 	    margin: 0;
 	    padding: 0;
 	}
+
+
 
 /*-----End----*/
 	.hero {
