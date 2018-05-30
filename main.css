@@ -75,6 +75,7 @@ appearance: none;
     padding: 15px 30px 15px 30px;
     cursor: pointer;
     margin-top: 2%;
+    -webkit-appearance: none;
 }
 
 .btn_class_green{
@@ -88,6 +89,7 @@ appearance: none;
     padding: 15px 30px 15px 30px;
     cursor: pointer;
     margin-top: 2%;
+    -webkit-appearance: none;
 }
 
 .btn_class_content{
@@ -101,6 +103,7 @@ appearance: none;
     padding: 15px 30px 15px 30px;
     cursor: pointer;
     margin-top: 3%;
+    -webkit-appearance: none;
 }
 
 p, h1, h2{
@@ -397,6 +400,7 @@ Email form
 	background-color: #00BE78;
 	display: flex;
 	align-items: center;
+    -webkit-appearance: none;
 }
 
 .email_enter{
@@ -409,17 +413,20 @@ Email form
     width: 100%;
     color: #fff;
     font-size: 16px;
+    -webkit-appearance: none;
 }
 
 .email-col .email-sec li{
 	flex-basis: 100%;
 	text-align: center;
+    -webkit-appearance: none;
 }
 
 .email-col .email-sec p{
 	color: #fff;
 	font-size: 18px;
 	padding-bottom: 20px;
+    -webkit-appearance: none;
 }
 
 input[type=submit]{
@@ -429,6 +436,7 @@ input[type=submit]{
     font-size: 17px;
     color: #00BE78;
     cursor: pointer;
+    -webkit-appearance: none;
 }
 
 ::placeholder {
