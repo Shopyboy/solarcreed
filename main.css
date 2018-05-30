@@ -44,21 +44,21 @@ a:-webkit-any-link {
 }
 
 /*Safari mobile fix*/
-/*textarea,
+textarea,
 input.text,
 input[type="text"],
 input[type="button"],
 input[type="submit"],
 .input-checkbox {
--webkit-appearance: none;
-border-radius: 0;
-}*/
+-webkit-appearance: none!important;
+-moz-appearance: none;
+}
 
-input {
+/*input {
 -webkit-appearance: none;
 -moz-appearance: none;
 appearance: none;
-}
+}*/
 
 .main{
 	margin-top: 90px;
