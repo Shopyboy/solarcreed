@@ -7,8 +7,8 @@
     <meta name=”description” content=”SolarCreed empowers farmers in Africa to use the most of the sun to grow, preserve, package and distribute food, sustainably.”>
     <title>SolarCreed | Unlock the Sun</title>
     <link rel="stylesheet" type="text/css" href="fonts.css">
-    <link rel="stylesheet" type="text/css" href="login.css">
-    <link rel="stylesheet" type="text/css" href="login-responsive.css">
+    <link rel="stylesheet" type="text/css" href="signup.css">
+    <link rel="stylesheet" type="text/css" href="signup-responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -45,15 +45,32 @@
 
       <section class="input-form">
         <form>
-          <h3>Welcome.</h3>
-          <p>Log in to your SolarCreed account. </p>
+          <img src="images/shopping-cart.svg">
+          <h3>Welcome to SolarCreed Store. </h3>
+          <p>Sign up for a SolarCreed Account to buy products, pay subscription and view payment history.</p>
+
+          <div class="form-group">
+              <input type="text" class="form-control input-md" placeholder="First Name*" required="">
+          </div>
+
+          <div class="form-group">
+              <input type="text" class="form-control input-md" placeholder="Surname*" required="">
+          </div>
 
           <div class="form-group">
               <input type="email" class="form-control input-md" placeholder="Email*" required="">
           </div>
 
           <div class="form-group">
+              <input type="text" class="form-control input-md" placeholder="Customer Id*" >
+          </div>
+
+          <div class="form-group">
               <input type="password" class="form-control input-md" placeholder="Password*" required="">
+          </div>
+
+          <div class="form-group">
+              <input type="password" class="form-control input-md" placeholder="Confirm Password*" required="">
           </div>
 
           <div class="check-group">
@@ -61,11 +78,11 @@
               <label class="input-md" for="rememberMe">Remember me</label>
           </div>
 
-          <button class="btn_class_content" href="#">LOGIN</button>
+          <button class="btn_class_content" href="#">SIGN UP</button>
 
           <div class="redir">
-              <div class="ui-links"><span>New to SolarCreed?</span><a href="signup.html">Sign up</a></div>
-              <div class="ui-links"><a href="#">Forgot your password?</a></div>
+              <div class="ui-links"><span>I already have an account.</span><a href="login.html">Login</a></div>
+              <!-- <div class="ui-links"><a href="#">Forgot your password?</a></div> -->
           </div>
         </form>
       </section>
