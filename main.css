@@ -52,6 +52,7 @@ input[type="submit"],
 .input-checkbox {
 -webkit-appearance: none!important;
 -moz-appearance: none;
+appearance: none;
 }
 
 /*input {
@@ -76,6 +77,8 @@ appearance: none;
     cursor: pointer;
     margin-top: 2%;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .btn_class_green{
@@ -90,6 +93,8 @@ appearance: none;
     cursor: pointer;
     margin-top: 2%;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .btn_class_content{
@@ -104,6 +109,8 @@ appearance: none;
     cursor: pointer;
     margin-top: 3%;
     -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 
