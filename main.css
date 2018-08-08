@@ -44,7 +44,7 @@ a:-webkit-any-link {
 }
 
 /*Safari mobile fix*/
-textarea,
+/*textarea,
 input.text,
 input[type="text"],
 input[type="button"],
@@ -53,7 +53,7 @@ input[type="submit"],
 -webkit-appearance: none!important;
 -moz-appearance: none;
 appearance: none;
-}
+}*/
 
 /*input {
 -webkit-appearance: none;
@@ -447,7 +447,7 @@ input[type=submit]{
     font-size: 17px;
     color: #00BE78;
     cursor: pointer;
-    -webkit-appearance: none;
+    /*-webkit-appearance: none;*/
 }
 
 ::placeholder {
