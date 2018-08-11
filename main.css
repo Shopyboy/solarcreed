@@ -300,7 +300,7 @@ Hero Section
 }
 
 .hero .hero-img{
-    background-image: url(images/seedlings.jpg);
+    background-image: url(images/dan-gold-206211-unsplash.png);
     position: fixed;
     top: 0;
     left: 0;
@@ -345,7 +345,6 @@ Hero Section
     line-height: 40px;
     width: 39vw;
     color: inherit;
-    text-shadow: 2px 2px 7px rgba(0,0,0,0.40);
 }
 
 }
