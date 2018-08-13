@@ -43,6 +43,18 @@ a:-webkit-any-link {
     color: inherit;
 }
 
+a:-moz-any-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:any-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
 textarea,
 input.text,
 input[type="text"],
