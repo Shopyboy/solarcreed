@@ -1,4 +1,4 @@
-@media screen and (max-width: 549px){
+@media screen and (max-width: 568px){
 
 /*------Static Content---*/
 	.header {
@@ -239,7 +239,7 @@
 }
 
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 569px) {
 	.nav-toggle{
 		display: none;
 	}
@@ -249,15 +249,20 @@
 	}
 }
 
-@media screen and (min-width: 551px) and (max-width: 767px) {
+@media screen and (min-width: 569px) and (max-width: 767px) {
 /*----Static Content----*/
 	.header {
 	    padding-left: 0px;
 	    padding-right: 0px;
 	}
 
+	.header_inner {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
 	section {
-	    padding: 70px 54px;
+	    padding: 70px 20px;
 	}
 
 	.btn_class_white {
@@ -279,7 +284,7 @@
 	}
 
 	footer {
-    	padding: 70px 54px 70px 54px;
+    	padding: 70px 20px 70px 20px;
 	}
 /*----end----*/
 	.hero {
@@ -419,5 +424,35 @@
 	.btn_class_content {
 	    margin-left: 10%;
 	}
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1394px) {
+	/*---Product section---*/
+	.product-info .grid li:first-child{
+		flex-basis: 39%;
+	}
+
+	.product-info .grid li{
+		flex-basis: 61%;
+	}
+	/*---General Section*/
+	section {
+	    padding: 124px 52px;
+	}
+
+	.header {
+	    padding-left: 6px;
+	    padding-right: 6px;
+	}
+	/*---Footer----*/
+	footer {
+	    padding: 70px 52px 150px 52px;
+	}
+	/*---Fearures section---*/
+	.features .grid li {
+	    padding: 0px 20px;
+	}
+
 
 }
